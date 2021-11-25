@@ -13,7 +13,8 @@ export class AppComponent implements OnInit {
     //Add 'implements OnInit' to the class.
   }
   gotoCars() {
-    this.router.navigate(['cars']); // define your component where you want to go
+    this.router.navigate(['cars']); // redirect to cars page
+   
     console.log('This works');
   }
 }
